@@ -41,6 +41,7 @@
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <IncludePath>..\..\zstd\lib;..\..\zstd\lib\common;..\..\zstd\lib\compress;..\..\zstd\lib\decompress;$(IncludePath)</IncludePath>
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <CLRSupport>false</CLRSupport>
@@ -48,6 +49,7 @@
     <PlatformToolset>v143</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'" Label="Configuration">
+    <IncludePath>..\..\zstd\lib;..\..\zstd\lib\common;..\..\zstd\lib\compress;..\..\zstd\lib\decompress;$(IncludePath)</IncludePath>
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <CLRSupport>false</CLRSupport>
@@ -55,6 +57,7 @@
     <PlatformToolset>v143</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'" Label="Configuration">
+    <IncludePath>..\..\zstd\lib;..\..\zstd\lib\common;..\..\zstd\lib\compress;..\..\zstd\lib\decompress;$(IncludePath)</IncludePath>
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <CLRSupport>false</CLRSupport>
@@ -62,6 +65,7 @@
     <PlatformToolset>v143</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <IncludePath>..\..\zstd\lib;..\..\zstd\lib\common;..\..\zstd\lib\compress;..\..\zstd\lib\decompress;$(IncludePath)</IncludePath>
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <CLRSupport>false</CLRSupport>
@@ -69,6 +73,7 @@
     <PlatformToolset>v143</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <IncludePath>..\..\zstd\lib;..\..\zstd\lib\common;..\..\zstd\lib\compress;..\..\zstd\lib\decompress;$(IncludePath)</IncludePath>
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
     <CLRSupport>false</CLRSupport>
@@ -77,6 +82,7 @@
     <PlatformToolset>v143</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'" Label="Configuration">
+    <IncludePath>..\..\zstd\lib;..\..\zstd\lib\common;..\..\zstd\lib\compress;..\..\zstd\lib\decompress;$(IncludePath)</IncludePath>
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
     <CLRSupport>false</CLRSupport>
@@ -85,6 +91,7 @@
     <PlatformToolset>v143</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'" Label="Configuration">
+    <IncludePath>..\..\zstd\lib;..\..\zstd\lib\common;..\..\zstd\lib\compress;..\..\zstd\lib\decompress;$(IncludePath)</IncludePath>
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
     <CLRSupport>false</CLRSupport>
@@ -93,6 +100,7 @@
     <PlatformToolset>v143</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <IncludePath>..\..\zstd\lib;..\..\zstd\lib\common;..\..\zstd\lib\compress;..\..\zstd\lib\decompress;$(IncludePath)</IncludePath>
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
     <CLRSupport>false</CLRSupport>
@@ -304,7 +312,6 @@
     <ClInclude Include="..\..\zstd\lib\common\pool.h" />
     <ClInclude Include="..\..\zstd\lib\common\threading.h" />
     <ClInclude Include="..\..\zstd\lib\common\xxhash.h" />
-    <ClInclude Include="..\..\zstd\lib\common\zstd_deps.h" />
     <ClInclude Include="..\..\zstd\lib\common\zstd_errors.h" />
     <ClInclude Include="..\..\zstd\lib\common\zstd_internal.h" />
     <ClInclude Include="..\..\zstd\lib\compress\hist.h" />

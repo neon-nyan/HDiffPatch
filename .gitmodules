@@ -11,7 +11,7 @@
 	branch = v1.5.2
 [submodule "zlib"]
 	path = zlib
-	url = https://github.com/sisong/zlib.git=
+	url = https://github.com/madler/zlib.git
 [submodule "bzip2"]
 	path = bzip2
 	url = https://github.com/sisong/bzip2.git
