@@ -47,28 +47,28 @@
     <UseDebugLibraries>true</UseDebugLibraries>
     <CLRSupport>false</CLRSupport>
     <CharacterSet>Unicode</CharacterSet>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <CLRSupport>false</CLRSupport>
     <CharacterSet>Unicode</CharacterSet>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <CLRSupport>false</CLRSupport>
     <CharacterSet>Unicode</CharacterSet>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <CLRSupport>false</CLRSupport>
     <CharacterSet>Unicode</CharacterSet>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
@@ -76,7 +76,7 @@
     <CLRSupport>false</CLRSupport>
     <CharacterSet>Unicode</CharacterSet>
     <WholeProgramOptimization>true</WholeProgramOptimization>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
@@ -84,7 +84,7 @@
     <CLRSupport>false</CLRSupport>
     <CharacterSet>Unicode</CharacterSet>
     <WholeProgramOptimization>true</WholeProgramOptimization>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
@@ -92,7 +92,7 @@
     <CLRSupport>false</CLRSupport>
     <CharacterSet>Unicode</CharacterSet>
     <WholeProgramOptimization>true</WholeProgramOptimization>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
@@ -100,7 +100,7 @@
     <CLRSupport>false</CLRSupport>
     <CharacterSet>Unicode</CharacterSet>
     <WholeProgramOptimization>true</WholeProgramOptimization>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
@@ -293,25 +293,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\lzma\C\CpuArch.c" />
-    <ClCompile Include="..\..\..\lzma\C\LzFindOpt.c">
+    <ClCompile Include="..\..\lzma\C\CpuArch.c" />
+    <ClCompile Include="..\..\lzma\C\LzFindOpt.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\..\..\lzma\C\LzmaDec.c" />
-    <ClCompile Include="..\..\..\lzma\C\Lzma2Dec.c" />
-    <ClCompile Include="..\..\..\lzma\C\Alloc.c" />
-    <ClCompile Include="..\..\..\lzma\C\LzFind.c" />
-    <ClCompile Include="..\..\..\lzma\C\LzFindMt.c" />
-    <ClCompile Include="..\..\..\lzma\C\Lzma2DecMt.c" />
-    <ClCompile Include="..\..\..\lzma\C\Lzma2Enc.c" />
-    <ClCompile Include="..\..\..\lzma\C\LzmaEnc.c" />
-    <ClCompile Include="..\..\..\lzma\C\MtCoder.c" />
-    <ClCompile Include="..\..\..\lzma\C\MtDec.c" />
-    <ClCompile Include="..\..\..\lzma\C\Threads.c" />
+    <ClCompile Include="..\..\lzma\C\LzmaDec.c" />
+    <ClCompile Include="..\..\lzma\C\Lzma2Dec.c" />
+    <ClCompile Include="..\..\lzma\C\Alloc.c" />
+    <ClCompile Include="..\..\lzma\C\LzFind.c" />
+    <ClCompile Include="..\..\lzma\C\LzFindMt.c" />
+    <ClCompile Include="..\..\lzma\C\Lzma2DecMt.c" />
+    <ClCompile Include="..\..\lzma\C\Lzma2Enc.c" />
+    <ClCompile Include="..\..\lzma\C\LzmaEnc.c" />
+    <ClCompile Include="..\..\lzma\C\MtCoder.c" />
+    <ClCompile Include="..\..\lzma\C\MtDec.c" />
+    <ClCompile Include="..\..\lzma\C\Threads.c" />
   </ItemGroup>
   <ItemGroup>
-    <MASM Include="..\..\..\lzma\Asm\x86\LzFindOpt.asm">
+    <MASM Include="..\..\lzma\Asm\x86\LzFindOpt.asm">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">true</ExcludedFromBuild>
@@ -319,7 +319,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">true</ExcludedFromBuild>
     </MASM>
-    <MASM Include="..\..\..\lzma\Asm\x86\LzmaDecOpt.asm">
+    <MASM Include="..\..\lzma\Asm\x86\LzmaDecOpt.asm">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">true</ExcludedFromBuild>
