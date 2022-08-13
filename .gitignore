@@ -19,8 +19,8 @@ Release_x86
 builds/android_ndk_jni_mk/libs
 builds/android_ndk_jni_mk/obj
 builds/vc/ipch/
+builds/vc2019/.vs
 *.opensdf
 *.sdf
 *.ipch
-builds/vc2019/.vs
 *.user
